@@ -1,0 +1,13 @@
+main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+  margin: 50px;
+}
+main>p{
+  background-color: lightblue; text-align: center;
+  padding: 20px;
+}
+#test{background-color: green;
+}

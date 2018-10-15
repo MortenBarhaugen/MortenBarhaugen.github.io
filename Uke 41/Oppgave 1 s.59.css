@@ -1,0 +1,25 @@
+input:focus{
+  width: 500px;
+  background-color: Blue;
+}
+.haha:hover{
+  background-color: Blue;
+}
+input:hover{
+  padding: 100px;
+}
+a:hover{
+  padding-left: 100px;
+}
+#tesst {
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+}
+#tesst:hover {
+  top: -10px;
+}
+p:after{
+  content: "Hei";
+  padding-left: 5px;
+}

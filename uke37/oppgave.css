@@ -1,0 +1,13 @@
+body {
+  background-color: lightgrey;
+}
+h1 {
+  color: black;color: white; font-family: "Comic Sans MS", cursive; width: 75px; text-shadow: 4px 2px 0 red, 8px 4px 0 orange, 12px 6px 0 yellow, 16px 8px 0 green, 20px 10px 0 blue, 24px 12px 0 indigo, 28px 14px 0 violet;
+  margin: auto;
+}
+a {
+  color: white; width: 155px; font-family: "Comic Sans MS", cursive;
+}
+img {
+  box-shadow: 5px 5px 3px blue;
+}

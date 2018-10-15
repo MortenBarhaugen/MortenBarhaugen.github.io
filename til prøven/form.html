@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form onsubmit="return results();" action="form2.html">
+      <input id="1" type="text" name="1" required placeholder="Hva heter du?"></br></br>
+      <input id="2" type="radio" name="2" required>Pasta
+      <input id="nr3" type="radio" name="Mat"> Pizza </br></br>
+      <input type="color" name="Farge" required>Velg en farge</br>
+    </br>
+      <input type="submit" action="Send">
+    </form>
+    <script type="javascript">
+    function results () {
+      var 1= document.getElementById('1').value
+      var 2= document.getElementById('2').value
+
+      document.write("<h1>WOW</h1>")
+    }
+
+    </script>
+
+  </body>
+</html>

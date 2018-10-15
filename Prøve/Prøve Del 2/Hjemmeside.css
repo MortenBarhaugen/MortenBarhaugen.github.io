@@ -1,0 +1,25 @@
+body{
+  background-color: lightblue;
+}
+h1{
+  padding-left: 200px;
+  background-color: lightblue;text-shadow: 5px 5px 5px blue;/*Farge og størrelse på skyggen til overskriften*/
+}
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 200px;
+  overflow: hidden;
+}
+li{
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: lightgrey;
+}
+li:hover{
+  background-color: white;/*Backgrunnen til skriften blir hvit når man holder musepekeren over skriften*/
+}
+main{
+  padding-left: 200px;
+}
