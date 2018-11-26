@@ -1,0 +1,58 @@
+.grid{
+  display: grid;
+  grid-template-columns: 12.5% 1fr 1fr 12.5%;
+  grid-template-rows: 100px repeat(3, 200px 90px);
+  grid-gap: 10px;
+}
+.nav{
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  background-color: lightblue;
+}
+body{
+  margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+li{
+  float: left;
+}
+li h2{
+  padding: 10px;
+  padding-left: 200px;
+}
+li a{
+  text-decoration: none;
+  display: block;
+}
+a:hover{
+  color: grey;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden;
+}
+.Bilde1{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.Bilde2{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.Bildetekst1{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: lightblue;
+  padding-left: 130px;
+  padding-top: 4px;
+  margin: 10px;
+}

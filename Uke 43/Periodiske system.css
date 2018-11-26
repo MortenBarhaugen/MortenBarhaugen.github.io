@@ -1,0 +1,77 @@
+#Tabell{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.gul{
+  border: 5px solid black;
+  background-color: yellow;
+}
+.usynlig1{
+  opacity: 0;
+  grid-column: 2 / 17;
+}
+.lyseblå{
+  border: 5px solid black;
+  background-color: lightblue;
+}
+.rød{
+  border: 5px solid black;
+  background-color: red;
+}
+.oransje{
+  border: 5px solid black;
+  background-color: #FFC848;
+}
+.usynlig2{
+  opacity: 0;
+  grid-column: 3 / 13;
+}
+.lysegrønn{
+  border: 5px solid black;
+  background-color: lightgreen;
+}
+.grå{
+  border: 5px solid black;
+  background-color: grey;
+}
+.rosa{
+  border: 5px solid black;
+  background-color: lightpink;
+}
+.lilla{
+  border: 5px solid black;
+  background-color: purple;
+}
+.usynlig3{
+  opacity: 0;
+  grid-column: 3 / 13;
+}
+body{
+  text-align: center;
+}
+.gul:hover{
+  opacity: 0;
+}
+.lilla:hover{
+  opacity: 0;
+}
+.lyseblå:hover{
+  opacity: 0;
+}
+.lysegrønn:hover{
+  opacity: 0;
+}
+.grå:hover{
+  opacity: 0;
+}
+.rosa:hover{
+  opacity: 0;
+}
+.oransje:hover{
+  box-shadow: 4px 4px 4px lightblue;
+}
+.rød:hover{
+  opacity: 0;
+}

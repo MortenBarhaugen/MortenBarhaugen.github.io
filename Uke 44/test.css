@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+}
+.test {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: lightgrey;
+  text-align: center;
+}
+.Bilder{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+}
