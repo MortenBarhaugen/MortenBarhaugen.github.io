@@ -6,12 +6,12 @@
   position: relative;
   background-color: white;
 }
-.bildetekst{
+.Bildetekst1{
   background-color: lightblue;
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-  padding-top: 25px;
-  padding-right: 10px;
+  text-align: center;
+  padding-top: 15px;
   overflow: hidden;
 }
 .nav{
@@ -25,6 +25,7 @@ body{
 .stortbilde{
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  overflow: hidden;
 }
 ul{
     list-style-type: none;
@@ -35,7 +36,7 @@ li{
 }
 li h2{
   padding: 10px;
-  padding-left: 200px;
+  padding-left: 150px;
 }
 li a{
   text-decoration: none;
@@ -53,7 +54,6 @@ img{
   display: block;
 }
 h1{
-  padding-left: 350px;
   color: white;
 }
 .Artikkeltekst{
@@ -61,4 +61,13 @@ h1{
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 3;
+}
+footer{
+  background-color: lightblue;
+}
+footer a{
+  color: blue;
+}
+footer a:hover{
+  color: blue;
 }

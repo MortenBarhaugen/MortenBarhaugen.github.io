@@ -4,13 +4,14 @@
   grid-template-rows: 100px 350px 120px repeat(3, 200px 90px);
   grid-gap: 10px;
   position: relative;
-  background-color: white;
+  background-color: #dce6e8;
 }
 .bildetekst{
   background-color: lightblue;
   grid-column: 2 / 4;
   grid-row: 3 / 4;
-  padding-top: 25px;
+  text-align: center;
+  padding-top: 13px;
 }
 .nav{
   grid-column: 1 / 5;
@@ -34,7 +35,7 @@ li{
 }
 li h2{
   padding: 10px;
-  padding-left: 200px;
+  padding-left: 150px;
 }
 li a{
   text-decoration: none;
@@ -53,38 +54,57 @@ img{
   display: block;
   overflow: hidden;
 }
-h1{
-  padding-left: 200px;
-}
 .Bilde2{
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row: 4 / 5;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 .Bildetekst2{
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-row: 5 /6;
+  grid-column: 2 / 3;
   background-color: lightblue;
-  padding-left: 160px;
-  padding-top: 4px;
   margin: 10px;
 }
 .Bilde3{
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-row: 4 / 5;
+  grid-column: 3 / 4;
 }
 .Bildetekst3{
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-row: 5 /6;
+  grid-column: 3 / 4;
   background-color: lightblue;
-  padding-left: 130px;
-  padding-top: 4px;
   margin: 10px;
+}
+#bildetekst{
+  text-align: center;
+  padding-top: 1px;
+}
+.Bilde4{
+  grid-row: 6 / 7;
+  grid-column: 2 / 3;
+}
+.Bildetekst4{
+  grid-row: 7 / 8;
+  grid-column: 2 / 3;
+  background-color: lightblue;
+  margin: 10px;
+}
+.Bilde5{
+  grid-row: 6 / 7;
+  grid-column: 3 / 4;
+}
+.Bildetekst5{
+  grid-row: 7 / 8;
+  grid-column: 3 / 4;
+  background-color: lightblue;
+  margin: 10px;
+}
+footer{
+  background-color: lightblue;
+}
+footer a{
+  color: blue;
+}
+footer a:hover{
+  color: blue;
 }
