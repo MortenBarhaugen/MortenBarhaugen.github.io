@@ -1,0 +1,7 @@
+{
+  "navn":"Morten",
+  "adresse":"Ringstabekkveien",
+  "alder":"17",
+  "familie":["Anders","Henriette","Aleksander","Petter"],
+  "fødselsdato":{"år": 2001, "måned": 6, "dag":15},
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDZgfwe3Wqd_OxjnMa1k6Sb8JXqbyWMR5M",
+        authDomain: "uke-5-2.firebaseapp.com",
+        databaseURL: "https://uke-5-2.firebaseio.com",
+        projectId: "uke-5-2",
+        storageBucket: "uke-5-2.appspot.com",
+        messagingSenderId: "720850945963"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktliste");
+      const mickey = kontaktliste.child("666");
+      mickey.set(
+      {
+        "firstname": "Mickey",
+        "lastname": "Mouse",
+        "streetnr": "123 Fantasy Way",
+        "city": "Anaheim",
+        "age": 73,
+      }
+    </script>
+    <form class="skjema" action="register.html" method="post">
+      <input id="inpNavn" type="text" name="Navn" value="" placeholder="Navn">
+      <input id="inpAdresse" type="text" name="Adresse" value="" placeholder="Adresse">
+      <input id="Alder" type="number" name="Alder" value="" placeholder="Alder">
+      <input type="submit" name="Submit" value="Submit">
+    </form>
+    <section class="secKontakter">
+
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDtCT5dy6SB0bdsDdRIUur1e2Cs6d8PWlw",
+        authDomain: "Uke-5.firebaseapp.com",
+        databaseURL: "https://uke-5-3a40d.firebaseio.com/",
+        projectId: "Uke-5-3a40d",
+        storageBucket: "Uke-5.appspot.com",
+        messagingSenderId: "1051253894104"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script type="javascript">
+
+        // HTML-elementer
+        const skjema = document.querySelector("#skjema");
+        const inpNavn = document.querySelector("#inpNavn");
+        const inpAdresse = document.querySelector("#inpAdresse");
+        const inpEpost = document.querySelector("#inpAlder");
+        const secKontakter = document.querySelector("#secKontakter");
+        // Firebase
+        const db = firebase.database();
+        const kontakter = db.ref("kontakter");
+        // Registrere en ny kontakt
+        function registrerKontakt(evt) {
+            evt.preventDefault();
+            const key = inpAdresse.value;
+            const data = {
+                navn: inpNavn.value,
+                alder: inpAlder.value
+            };
+            const kontakt = kontakter.child(key);
+            kontakt.set(data);
+
+            // Nuller ut skjemaet
+            skjema.reset();
+        }
+        // Knytter funksjonen til hendelsen at skjemaet blir sendt inn
+        skjema.addEventListener("submit", registrerKontakt);
+      </script>
+  </body>
+</html>

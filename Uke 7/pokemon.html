@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="pokemon.css">
+
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyDds7941KXUK2Xdch3_L87Sj3Os0GJS3bc",
+  authDomain: "pokemon-3d4ae.firebaseapp.com",
+  databaseURL: "https://pokemon-3d4ae.firebaseio.com",
+  projectId: "pokemon-3d4ae",
+  storageBucket: "pokemon-3d4ae.appspot.com",
+  messagingSenderId: "230697180909"
+};
+firebase.initializeApp(config);
+</script>
+
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <button onclick="visAlle()">Alle</button>
+        <button onclick="visGrass()">Grass</button>
+        <button onclick="location.href='chat.html'">Chat</button>
+        <button onclick="visElectric()">Electric</button>
+        <button onclick="test()">Test</button>
+
+
+      </nav>
+    </header>
+    <main>
+
+    </main>
+
+    <script>
+        const main = document.querySelector("main"); // Variabel som referer til mian-elementet
+          // Referanser til databasen
+        const db = firebase.database();
+        const pokemon = db.ref("pokemon"); // Referer til alt som ligger under pokemon i databasen
+        function visPokemon(snapshot){ //(generer HTML i prøven)
+              //Javascript-funksjon som skriver varene ut på nettsiden i main-elementet
+            console.log(snapshot.val());
+            let pokeSnap = snapshot.val();
+            main.innerHTML +=`
+                <article class="Pokemon">
+                  <h1>${pokeSnap.Name}</h1>
+                  <img src="${pokeSnap.ImageURL}" alt="">
+                  <p>${pokeSnap.Type1} - ${pokeSnap.Type2}</p>
+                  <p>Type 1: ${pokeSnap["Type 1"]}</p>
+                </article>
+            `
+        }
+        function visAlle(){
+          main.innerHTML = ``
+          pokemon.on("child_added",visPokemon);
+        }
+        function visGrass(){
+          main.innerHTML = ``
+          pokemon
+            .orderByChild("Type 1")
+            .equalTo("Grass")
+            .on("child_added",visPokemon);
+        }
+        function visElectric(){
+          main.innerHTML = ``
+          pokemon
+            .orderByChild("Type 1")
+            .equalTo("Electric")
+            .limitToFirst(5)
+            .on("child_added",visPokemon);
+        }
+        function test(){
+          main.innerHTML = ``
+          pokemon
+            .orderByChild("Name")
+            .startAt("A")
+            .endAt("M")
+            .on("child_added",visPokemon)
+
+        }
+    </script>
+
+  </body>
+</html>
+
+<!--
+Spørrefunksjonen .on();
+I IT1 bruker vi spørrefunksjonen .on();. Skrivemåte:
+
+databaseRef.on("hendelseslytter",javascriptFunksjon);
+
+onChildAdded	nye oppføringer som legges til
+onChildRemoved	oppføringer som fjernes
+onChildChanged	data som endres
+
+.limitToFirst(n)	Hent ut de n første
+.limitToLast(n)	Hent ut de n siste
+.startAt(verdi)	Hent ut alle som starter på en bestemt verdi
+.endAt(verdi)	Hent ut alle som slutter på en bestemt verdi
+.equalTo(verdi)	Hent ut alle som er lik en verdi-->

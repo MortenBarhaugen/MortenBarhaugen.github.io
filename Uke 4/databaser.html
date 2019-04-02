@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCuxbOYpXWN0mGh8fgZQgb1nrDJjWTb9S0",
+    authDomain: "uke-4-4bb2e.firebaseapp.com",
+    databaseURL: "https://uke-4-4bb2e.firebaseio.com",
+    projectId: "uke-4-4bb2e",
+    storageBucket: "uke-4-4bb2e.appspot.com",
+    messagingSenderId: "122671565305"
+  };
+  firebase.initializeApp(config);
+</script>
+<script>
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktliste")
+      kontaktliste.push(
+      {
+        "navn":"Morten",
+        "adresse":"Ringstabekkveien",
+        "alder":"17",
+        "familie":["Anders","Henriette","Aleksander","Petter","test"],
+        "fødselsdato":{"år": 2001, "måned": 6, "dag":15},
+      }
+  </script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "AIzaSyCshZFl2Ou4GRTIqCSfBo2UTy7OIw3KKPM",
+    authDomain: "uke-4-4bb2e.firebaseapp.com",
+    databaseURL: "https://uke-4-4bb2e.firebaseio.com",
+    projectId: "uke-4-4bb2e",
+    storageBucket: "uke-4-4bb2e.appspot.com",
+    messagingSenderId: "122671565305",
+  };
+  firebase.initializeApp(config);
+</script
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-functions.js"></script>
+
+<!-- Comment out (or don't include) services that you don't want to use -->
+<!-- <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-storage.js"></script> -->
+
+<script>
+  var config = {
+    // ...
+  };
+  firebase.initializeApp(config);
+</script>
+  </body>
+</html>

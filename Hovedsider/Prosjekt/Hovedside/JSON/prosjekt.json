@@ -1,0 +1,100 @@
+{
+	"Produkter": {
+		"RAM": {
+			"RAM 1": {
+				"Banner": 1,
+				"Bilde": "Corsair Vengeance LPX 16gb 3000MHz.jpg",
+				"Pris": "1499.-",
+				"Produktbeskrivelse": "RAM fra Corsair med frekvens på 3000MHz og 16gb lagringsplass",
+				"Tittel": "Corsair Vengeance LPX 16gb 3000MHz",
+				"Frekvens": "3000MHz",
+				"Merke": "Corsair",
+        "Produkttype": "RAM",
+				"Lagringsplass": "16gb"
+			},
+			"RAM 2": {
+				"Banner": "BF5banner.jpg",
+				"Bilde": "Corsair Vengeance RGB Pro 16gb 2666MHz.jpg",
+				"Ferdig": 1,
+				"Pris": "1498.-",
+				"href": ".html",
+				"Produktbeskrivelse": "RAM fra Corsair med frekvens på 2666MHz og lagringsplass på 16gb. De har også RGB lys.",
+				"Tittel": "Corsair Vengeance RGB Pro 16gb 2666MHz",
+        "Frekvens": "2666MHz",
+				"Merke": "Corsair",
+        "Produkttype": "RAM",
+				"Lagringsplass": "16gb"
+			},
+			"RAM 3": {
+				"Banner": 1,
+				"Bilde": "G skill trident Z 16gb 3200MHz RGB.jpg",
+				"Pris": "299.-",
+				"Produktbeskrivelse": "RAM fra G skill med frekvens på 3200Mhz og 16gb lagringsplass. De har også RGB lys.",
+				"Tittel": "G skill trident Z 16gb 3200MHz",
+        "Frekvens": "3200MHz",
+				"Merke": "G skill",
+        "Produkttype": "RAM",
+				"Lagringsplass": "16gb"
+			},
+			"RAM 4": {
+				"Banner": 1,
+				"Bilde": "G skill trident Z 4266MHz 32gb RGB.jpg",
+				"Pris": "2599.-",
+				"Produktbeskrivelse": "RAM fra G skill med frekvens på 4266MHz og lagringsplass på 32gb. De har også RGB lys.",
+				"Tittel": "G skill trident Z 4266MHz 32gb RGB",
+        "Frekvens": "4266MHz",
+				"Merke": "G skill",
+        "Produkttype": "RAM",
+				"Lagringsplass": "32gb"
+			},
+			"RAM 5": {
+				"Banner": 1,
+				"Bilde": "G skill Value 32gb 2400MHz.jpg",
+				"Pris": "1399.-",
+				"Produktbeskrivelse": "RAM fra G skill med frekvens på 2400MHz og lagringsplass på 32gb.",
+				"Tittel": "G skill Value 32gb 2400MHz",
+        "Frekvens": "2400MHz",
+				"Merke": "G skill",
+        "Produkttype": "RAM",
+				"Lagringsplass": "32gb"
+			},
+			"RAM 6": {
+				"Banner": 1,
+				"Bilde": "HyperX Fury 16gb 3200MHz.jpg",
+				"Pris": "199.-",
+				"Produktbeskrivelse": "RAM fra HyperX Fury med frekvens på 3200MHz og lagringsplass på 16gb.",
+				"Tittel": "HyperX Fury 16gb 3200MHz",
+        "Frekvens": "3200MHz",
+				"Merke": "HyperX",
+        "Produkttype": "RAM",
+				"Lagringsplass": "16gb"
+			}
+		},
+		"Skjermkort": {
+			"Skjermkort 1": {
+				"Banner": 1,
+				"Bilde": "Nvidia GeForce GTX 1080 Ti.jpg",
+				"Pris": "5299.-",
+				"Produktbeskrivelse": "GTX 1080 Ti skjermkort fra Nvidia.",
+        "Produkttype": "Skjermkort",
+				"Tittel": "Nvidia GTX 1080 Ti"
+			},
+			"Skjermkort 2": {
+				"Banner": 1,
+				"Bilde": "Nvidia GeForce GTX 1080.jpg",
+				"Pris": "4399.-",
+				"Produktbeskrivelse": "GTX 1080 skjermkort fra Nvidia",
+        "Produkttype": "Skjermkort",
+				"Tittel": "Nvidia GeForce GTX 1080"
+			},
+			"Skjermkort 3": {
+				"Banner": 1,
+				"Bilde": "Asus GeForce GTX 1080 Ti ROG Strix OC.jpg",
+				"Pris": "5199.-",
+				"Produktbeskrivelse": "GTX 1080 Ti skjermkort fra ASUS med RGB lys.",
+        "Produkttype": "Skjermkort",
+				"Tittel": "ASUS GeForce GTX 1080 Ti ROG STRIX OC"
+			}
+		}
+	}
+}

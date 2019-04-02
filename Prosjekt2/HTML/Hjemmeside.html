@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="..\Css\Hjemmeside.css">
+    <link rel="stylesheet" href="/css/master.css">
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAG_s4t921e7kJBUZIIjle1exMCq13Dts8",
+        authDomain: "uke-7-83f94.firebaseapp.com",
+        databaseURL: "https://uke-7-83f94.firebaseio.com",
+        projectId: "uke-7-83f94",
+        storageBucket: "uke-7-83f94.appspot.com",
+        messagingSenderId: "410512967757"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </head>
+  <body>
+    <header>
+      <!--<div class="logo">
+        <img src="..\Bilder\logotest.png" alt="">
+
+      </div>-->
+
+      <nav>
+        <div style="background-color:blue;"> <a href="Grafikkort.html">nrk.no</a> </div>
+        <div style="background-color:yellow;">2</div>
+        <div style="background-color:green;">3</div>
+        <div style="background-color:red;">4</div>
+        <button onclick="visTekst()">tekst</button>
+      </nav>
+
+    </header>
+    <main>
+
+    </main>
+    <script>
+      const main = document.querySelector("main");
+      const db = firebase.database();
+      const tekst = db.ref("Tekst/Hunder"); //Fyll inn riktig referanse
+                                  //Lag en referanse for katter også!
+
+      function genererHTML(snapshot){
+        let dyr = snapshot.val();
+        main.innerHTML +=`
+            <article class="Tekst">
+              <h1>${dyr.Navn}</h1>
+              <img src="${dyr.Bilde}" alt="">
+              <p>Farge: ${dyr.Farge1}, ${dyr.Farge2}</p>
+              <p>Alder: ${dyr.Alder}</p>
+            </article>
+        `
+      }
+
+        function visTekst(){
+          main.innerHTML = ``
+          tekst
+          .orderbychild("Bilde")
+          .on("child_added",genererHTML);
+
+        }
+
+      // Lag egne funksjoner som tilfredstiller spørringene til oppgave 3A, 3B, 3C og 3D her:
+
+    </script>
+    <link rel="stylesheet" href="/css/master.css">
+    <footer>
+
+    </footer>
+
+  </body>
+</html>

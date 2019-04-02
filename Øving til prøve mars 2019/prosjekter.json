@@ -1,0 +1,21 @@
+{
+  "prosjekter" :{
+    "3D" : {
+      "tittel" : "3D-Tegning",
+      "beskrivelse" : "Fine tegninger i 3D",
+      "tema" : "Grafisk design",
+      "sammendrag" : "I temaet fordypet jeg meg i modellering med 3D-programmet 3DMAX. Det var en lærerik opplevelse",
+      "verktøy" : [
+        "Photoshop",
+        "Illustrator",
+        "Sketch",
+        "3D MAX"
+      ],
+      "bilder" : [
+        "http://soappotions.com/wp-content/uploads/2017/10/orange.jpg",
+        "https://mediatheque.orange.com/var/orange_site/storage/images/orange.com/mediatheque/changement-de-nom/logo-orange_1234/395019-1-fre-FR/Logo-Orange_1234_mediatheque-lightbox.jpg"
+      ],
+      "forsidebilde" : 1
+    },
+  },
+}

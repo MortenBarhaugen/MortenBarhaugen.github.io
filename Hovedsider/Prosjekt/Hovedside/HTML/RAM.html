@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../CSS/hovedside.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <h1> <li> <a href="hoved.html">Hjemmeside</a></li>
+        <li> <a href="RAM.html"><u>RAM</a></u></li>
+        <li> <a href="Skjermkort.html">Skjermkort</a></li>
+        <li> <a href="CPU.html">CPU</a></li>
+        <li> <a href="Kabinetter.html">Kabinetter</a></li>
+        <li> <a href="HDDSSD.html">HDD/SSD</a></li></h1>
+      </ul>
+      <div class="Buttons">
+        <button onclick="visBillig()">Billigst-Dyrest</button>
+        <button onclick="visAlfabetisk()">Alfabetisk</button>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyAG_s4t921e7kJBUZIIjle1exMCq13Dts8",
+          authDomain: "uke-7-83f94.firebaseapp.com",
+          databaseURL: "https://uke-7-83f94.firebaseio.com",
+          projectId: "uke-7-83f94",
+          storageBucket: "uke-7-83f94.appspot.com",
+          messagingSenderId: "410512967757"
+        };
+        firebase.initializeApp(config);
+      </script>
+    </header>
+    <main>
+      <script>
+          const main = document.querySelector("main");
+          const db = firebase.database();
+          const Produkter = db.ref("Produkter/RAM");
+          const RAM = db.ref("Produkter/RAM")
+          const Skjermkort = db.ref("Produkter/Skjermkort")
+          const Billig = db.ref("Produkter/RAM")
+          const Alfabetisk = db.ref("Produkter/RAM")
+
+          function visProdukter(snapshot){
+              let produktSnap = snapshot.val();
+              main.innerHTML +=`
+                  <article class="alle">
+                    <a href="${produktSnap.Tittel}+html" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 80%;"><h1>${produktSnap.Tittel}</h1>
+                    <img src="${"../Bilder/" + (produktSnap.Bilde)}" alt=""></a>
+                    <p>${produktSnap.Pris}</p>
+                  </article>
+              `
+          }
+          function visRAM(){
+            main.innerHTML = ``
+            RAM.on("child_added",visProdukter);
+            }
+        visRAM();
+
+        function visBillig(){
+          main.innerHTML = ``
+          Billig
+          .orderByChild("Pris")
+          .on("child_added",visProdukter);
+        }
+
+        fiks det under for å vise alfabetisk etter tittel i json
+        function visAlfabetisk(){
+          main.innerHTML = ``
+          RAM.on("child_added",visProdukter);
+          .orderByChild("Tittel")
+        }
+      </script>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
