@@ -47,7 +47,7 @@
               let produktSnap = snapshot.val();
               main.innerHTML +=`
                   <article class="alle">
-                    <a href="${produktSnap.Tittel}+html" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 80%;"><h1>${produktSnap.Tittel}</h1>
+                    <a style="text-decoration: none; color: black; font-family: sans-serif; font-size: 80%;"><h1>${produktSnap.Tittel}</h1>
                     <img src="${"../Bilder/" + (produktSnap.Bilde)}" alt=""></a>
                     <p>${produktSnap.Pris}</p>
                   </article>
@@ -66,16 +66,21 @@
           .on("child_added",visProdukter);
         }
 
-        fiks det under for å vise alfabetisk etter tittel i json
         function visAlfabetisk(){
           main.innerHTML = ``
-          RAM.on("child_added",visProdukter);
+          Alfabetisk
           .orderByChild("Tittel")
+          .on("child_added",visProdukter);
         }
       </script>
     </main>
     <footer>
-
+      <div class="footerwrapper">
+          <div>Kontakt oss:</div>
+          <div>butikk123@mail.com</div>
+          <div>Tlf: 12345678</div>
+          <div><a href="">Om oss</a></div>
+      </div>
     </footer>
   </body>
 </html>

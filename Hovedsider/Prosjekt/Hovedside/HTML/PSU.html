@@ -8,12 +8,12 @@
   <body>
     <header>
       <ul>
-        <li> <a href="hoved.html">Hjemmeside</a></li>
+        <h1><li> <a href="hoved.html">Hjemmeside</a></li>
         <li> <a href="RAM.html"><u>RAM</a></u></li>
         <li> <a href="Skjermkort.html">Skjermkort</a></li>
         <li> <a href="CPU.html">CPU</a></li>
         <li> <a href="Kabinetter.html">Kabinetter</a></li>
-        <li> <a href="HDDSSD.html">HDD/SSD</a></li>
+        <li> <a href="HDDSSD.html">HDD/SSD</a></li></h1>
       </ul>
       <div class="Buttons">
         <button onclick="visBillig()">Billigst-Dyrest</button>
@@ -46,7 +46,7 @@
               let produktSnap = snapshot.val();
               main.innerHTML +=`
                   <article class="alle">
-                    <a href="${produktSnap.Tittel}+html" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 80%;"><h1>${produktSnap.Tittel}</h1>
+                    <a style="text-decoration: none; color: black; font-family: sans-serif; font-size: 80%;"><h1>${produktSnap.Tittel}</h1>
                     <img src="${"../Bilder/" + (produktSnap.Bilde)}" alt=""></a>
                     <p>${produktSnap.Pris}</p>
                   </article>
@@ -67,7 +67,12 @@
       </script>
     </main>
     <footer>
-
+      <div class="footerwrapper">
+          <div>Kontakt oss:</div>
+          <div>butikk123@mail.com</div>
+          <div>Tlf: 12345678</div>
+          <div><a href="">Om oss</a></div>
+      </div>
     </footer>
   </body>
 </html>

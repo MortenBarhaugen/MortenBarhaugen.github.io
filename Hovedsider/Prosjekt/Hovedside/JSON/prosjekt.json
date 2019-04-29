@@ -9,7 +9,7 @@
 				"Tittel": "Corsair Vengeance LPX 16gb 3000MHz",
 				"Frekvens": "3000MHz",
 				"Merke": "Corsair",
-        "Produkttype": "RAM",
+				"Produkttype": "RAM",
 				"Lagringsplass": "16gb"
 			},
 			"RAM 2": {
@@ -20,9 +20,9 @@
 				"href": ".html",
 				"Produktbeskrivelse": "RAM fra Corsair med frekvens på 2666MHz og lagringsplass på 16gb. De har også RGB lys.",
 				"Tittel": "Corsair Vengeance RGB Pro 16gb 2666MHz",
-        "Frekvens": "2666MHz",
+				"Frekvens": "2666MHz",
 				"Merke": "Corsair",
-        "Produkttype": "RAM",
+				"Produkttype": "RAM",
 				"Lagringsplass": "16gb"
 			},
 			"RAM 3": {
@@ -31,9 +31,9 @@
 				"Pris": "299.-",
 				"Produktbeskrivelse": "RAM fra G skill med frekvens på 3200Mhz og 16gb lagringsplass. De har også RGB lys.",
 				"Tittel": "G skill trident Z 16gb 3200MHz",
-        "Frekvens": "3200MHz",
+				"Frekvens": "3200MHz",
 				"Merke": "G skill",
-        "Produkttype": "RAM",
+				"Produkttype": "RAM",
 				"Lagringsplass": "16gb"
 			},
 			"RAM 4": {
@@ -42,9 +42,9 @@
 				"Pris": "2599.-",
 				"Produktbeskrivelse": "RAM fra G skill med frekvens på 4266MHz og lagringsplass på 32gb. De har også RGB lys.",
 				"Tittel": "G skill trident Z 4266MHz 32gb RGB",
-        "Frekvens": "4266MHz",
+				"Frekvens": "4266MHz",
 				"Merke": "G skill",
-        "Produkttype": "RAM",
+				"Produkttype": "RAM",
 				"Lagringsplass": "32gb"
 			},
 			"RAM 5": {
@@ -53,9 +53,9 @@
 				"Pris": "1399.-",
 				"Produktbeskrivelse": "RAM fra G skill med frekvens på 2400MHz og lagringsplass på 32gb.",
 				"Tittel": "G skill Value 32gb 2400MHz",
-        "Frekvens": "2400MHz",
+				"Frekvens": "2400MHz",
 				"Merke": "G skill",
-        "Produkttype": "RAM",
+				"Produkttype": "RAM",
 				"Lagringsplass": "32gb"
 			},
 			"RAM 6": {
@@ -64,9 +64,9 @@
 				"Pris": "199.-",
 				"Produktbeskrivelse": "RAM fra HyperX Fury med frekvens på 3200MHz og lagringsplass på 16gb.",
 				"Tittel": "HyperX Fury 16gb 3200MHz",
-        "Frekvens": "3200MHz",
+				"Frekvens": "3200MHz",
 				"Merke": "HyperX",
-        "Produkttype": "RAM",
+				"Produkttype": "RAM",
 				"Lagringsplass": "16gb"
 			}
 		},
@@ -76,7 +76,7 @@
 				"Bilde": "Nvidia GeForce GTX 1080 Ti.jpg",
 				"Pris": "5299.-",
 				"Produktbeskrivelse": "GTX 1080 Ti skjermkort fra Nvidia.",
-        "Produkttype": "Skjermkort",
+				"Produkttype": "Skjermkort",
 				"Tittel": "Nvidia GTX 1080 Ti"
 			},
 			"Skjermkort 2": {
@@ -84,7 +84,7 @@
 				"Bilde": "Nvidia GeForce GTX 1080.jpg",
 				"Pris": "4399.-",
 				"Produktbeskrivelse": "GTX 1080 skjermkort fra Nvidia",
-        "Produkttype": "Skjermkort",
+				"Produkttype": "Skjermkort",
 				"Tittel": "Nvidia GeForce GTX 1080"
 			},
 			"Skjermkort 3": {
@@ -92,8 +92,150 @@
 				"Bilde": "Asus GeForce GTX 1080 Ti ROG Strix OC.jpg",
 				"Pris": "5199.-",
 				"Produktbeskrivelse": "GTX 1080 Ti skjermkort fra ASUS med RGB lys.",
-        "Produkttype": "Skjermkort",
+				"Produkttype": "Skjermkort",
 				"Tittel": "ASUS GeForce GTX 1080 Ti ROG STRIX OC"
+			}
+		},
+		"Kabinett": {
+			"Kabinett 1": {
+				"Banner": 1,
+				"Bilde": "Corsair Obsidian 500D RGB SE.png",
+				"Pris": "1299.-",
+				"Produktbeskrivelse": "Kabinett fra Corsair med RGB-lys",
+				"Produkttype": "Kabinett",
+				"Tittel": "Corsair Obsidian 500D RGB SE"
+			},
+			"Kabinett 2": {
+				"Banner": 1,
+				"Bilde": "Corsair Spec Omega RGB.png",
+				"Pris": "1399.-",
+				"Produktbeskrivelse": "Kabinett fra Corsair med RGB-lys",
+				"Produkttype": "Kabinett",
+				"Tittel": "Corsair Spec Omega RGB"
+			},
+			"Kabinett 3": {
+				"Banner": 1,
+				"Bilde": "Lian Li PC-011.jpg",
+				"Pris": "1499.-",
+				"Produktbeskrivelse": "Kabinett fra Lian Li",
+				"Produkttype": "Kabinett",
+				"Tittel": "Lian Li PC-011"
+			},
+			"Kabinett 4": {
+				"Banner": 1,
+				"Bilde": "Thermaltake Core P3.jpg",
+				"Pris": "1599.-",
+				"Produktbeskrivelse": "Kabinett fra Thermaltake",
+				"Produkttype": "Kabinett",
+				"Tittel": "Thermaltake Core P3"
+			},
+			"Kabinett 5": {
+				"Banner": 1,
+				"Bilde": "NZXT H500.png",
+				"Pris": "1699.-",
+				"Produktbeskrivelse": "Kabinett fra NZXT",
+				"Produkttype": "Kabinett",
+				"Tittel": "NZXT H500"
+			}
+		},
+		"CPU": {
+			"CPU 1": {
+				"Banner": 1,
+				"Bilde": "AMD Ryzen 5 2600.jpg",
+				"Pris": "2399.-",
+				"Produktbeskrivelse": "Ryzen 5 2600 prosessor fra AMD",
+				"Produkttype": "CPU",
+				"Tittel": "AMD Ryzen 5 2600"
+			},
+			"CPU 2": {
+				"Banner": 1,
+				"Bilde": "AMD Ryzen 7 2700.jpg",
+				"Pris": "2599.-",
+				"Produktbeskrivelse": "Ryzen 7 2700 prosessor fra AMD",
+				"Produkttype": "CPU",
+				"Tittel": "AMD Ryzen 7 2700"
+			},
+			"CPU 3": {
+				"Banner": 1,
+				"Bilde": "Intel Core i5-9600K.jpg",
+				"Pris": "3199.-",
+				"Produktbeskrivelse": "i5-9600K prosessor fra Intel",
+				"Produkttype": "CPU",
+				"Tittel": "Intel Core i5-9600K"
+			},
+			"CPU 4": {
+				"Banner": 1,
+				"Bilde": "Intel Core i5-8400.png",
+				"Pris": "2699.-",
+				"Produktbeskrivelse": "i5-8400 prosessor fra Intel",
+				"Produkttype": "CPU",
+				"Tittel": "Intel Core i5-8400"
+			},
+			"CPU 5": {
+				"Banner": 1,
+				"Bilde": "Intel Core i7-8700.png",
+				"Pris": "3699.-",
+				"Produktbeskrivelse": "i5-8700 prosessor fra Intel",
+				"Produkttype": "CPU",
+				"Tittel": "Intel Core i7-8700"
+			},
+			"CPU 6": {
+				"Banner": 1,
+				"Bilde": "Intel Core i7-9700K.jpg",
+				"Pris": "4399.-",
+				"Produktbeskrivelse": "i7-9700K prosessor fra Intel",
+				"Produkttype": "CPU",
+				"Tittel": "Intel Core i7-9700K"
+			}
+		},
+		"HDDSSD": {
+			"HDDSSD 1": {
+				"Banner": 1,
+				"Bilde": "Samsung 860 EVO 2TB SSD.jpg",
+				"Pris": "1560.-",
+				"Produktbeskrivelse": "SSD fra Samsung med 2TB lagringsplass",
+				"Produkttype": "HDDSSD",
+				"Tittel": "Samsung 860 EVO 2TB SSD"
+			},
+			"HDDSSD 2": {
+				"Banner": 1,
+				"Bilde": "Samsung 970 EVO Plus 1TB.jpg",
+				"Pris": "2299.-",
+				"Produktbeskrivelse": "SSD fra Samsung med 1TB lagringsplass",
+				"Produkttype": "HDDSSD",
+				"Tittel": "Samsung 970 EVO Plus 1TB SSD"
+			},
+			"HDDSSD 3": {
+				"Banner": 1,
+				"Bilde": "Samsung 970 EVO Plus 500GB.jpg",
+				"Pris": "1293.-",
+				"Produktbeskrivelse": "SSD fra Samsung med 500GB lagringsplass",
+				"Produkttype": "HDDSSD",
+				"Tittel": "Samsung 970 EVO 500GB SSD"
+			},
+			"HDDSSD 4": {
+				"Banner": 1,
+				"Bilde": "Seagate Ironwolf 4TB.jpg",
+				"Pris": "1239.-",
+				"Produktbeskrivelse": "HDD fra Seagate med 4TB lagringsplass",
+				"Produkttype": "HDDSSD",
+				"Tittel": "Seagate Ironwolf 4TB HDD"
+			},
+			"HDDSSD 5": {
+				"Banner": 1,
+				"Bilde": "Seagate Barracuda 4TB.png",
+				"Pris": "1035.-",
+				"Produktbeskrivelse": "HDD fra Seagate med 4TB lagringsplass",
+				"Produkttype": "HDDSSD",
+				"Tittel": "Seagate Barracuda 4TB HDD"
+			},
+			"HDDSSD 6": {
+				"Banner": 1,
+				"Bilde": "Western Digital Black SN750 500GB.png",
+				"Pris": "1049.-",
+				"Produktbeskrivelse": "SSD fra Western Digital med 500GB lagringsplass",
+				"Produkttype": "HDDSSD",
+				"Tittel": "Western Digital Black SN750 500GB SSD"
 			}
 		}
 	}
