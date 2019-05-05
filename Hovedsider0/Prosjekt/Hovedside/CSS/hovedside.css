@@ -1,0 +1,100 @@
+ul {
+  list-style-type: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgrey;
+}
+header {
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  margin: 0;
+}
+li>a {
+  float: left;
+  text-decoration: none;
+  color: black;
+  background-color: darkgray;
+  font-size: 60%;
+  font-family: sans-serif;
+  width: 16.66667%;
+  line-height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+@media only screen and (max-width: 225px) {
+  li>a {
+    width: 100%;
+    position: fixed;
+  }
+}
+body {
+  margin: 0;
+  background-color: lightgrey;
+}
+li>a:hover {
+  background-color: grey;
+}
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  height: 90%;
+  margin-top: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+.alle:hover{
+  margin: 20px;
+  box-shadow: 0px 0px 2px 2px;
+}
+.alle{
+  margin: 20px;
+}
+h1{
+  margin-top: 0%;
+}
+.footerwrapper {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 20px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.buttonwrap{
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: lightgrey;
+}
+.myButton {
+	background-color: #ffffff;
+	border: 2px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #666666;
+	font-family: Trebuchet MS;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 13px 42px;
+	text-decoration: none;
+}
+.myButton:hover {
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
