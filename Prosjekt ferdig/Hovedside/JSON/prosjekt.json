@@ -1,0 +1,261 @@
+{
+	"Produkter": {
+		"CPU": {
+			"CPU 1": {
+				"Banner": 1,
+				"Bilde": "AMD Ryzen 5 2600.jpg",
+				"Pris": "2399.-",
+				"Produktbeskrivelse": "Prosessorene 2nd Gen AMD Ryzen™ er basert på bransjeledende 12 nanometers prosessteknologi for å ta i bruk de nyeste banebrytende funksjonene. Ryzens avanserte SenseMI1-teknologi gjør det mulig med mer ytelse enn noen gang før. I kombinasjon med Precision Boost 2-teknologi bruker XFR 2 intelligensen til prosessoren for å oppdage førsteklasses kjøling2 og levere mer ytelse i arbeidsbelastninger. Hovedkortene i AMD 400-serien er klargjort for alle skrivebordsprosessorer fra Ryzen rett ut av boksen, og har spesialoppdateringer som er skreddersydd for entusiaster, for eksempel Precision Boost Overdrive3 for forbedret ytelse med prosessorer i AMD Ryzen 2000X-serien. Hovedkortene i AMD 300-serien er kompatible med 2nd Gen AMD Ryzen™ prosessorer med en enkel fastvareoppdatering (BIOS) 4. Velg 2nd Gen AMD Ryzen prosessorer og omfavn en databehandlingsopplevelse som er både mer fleksibel og kraftigere enn noe som før har vært tilgjengelig.",
+				"Produkttype": "CPU",
+				"Merke": "AMD",
+				"Tittel": "AMD Ryzen 5 2600"
+			},
+			"CPU 2": {
+				"Banner": 1,
+				"Bilde": "AMD Ryzen 7 2700.jpg",
+				"Pris": "2599.-",
+				"Produktbeskrivelse": "Prosessorene 2nd Gen AMD Ryzen™ er basert på bransjeledende 12 nanometers prosessteknologi for å ta i bruk de nyeste banebrytende funksjonene. Ryzens avanserte SenseMI1 - teknologi gjør det mulig med mer ytelse enn noen gang før.I kombinasjon med Precision Boost 2 - teknologi bruker XFR 2 intelligensen til prosessoren for å oppdage førsteklasses kjøling2 og levere mer ytelse i arbeidsbelastninger. Hovedkortene i AMD 400 - serien er klargjort for alle skrivebordsprosessorer fra Ryzen rett ut av boksen, og har spesialoppdateringer som er skreddersydd for entusiaster, for eksempel Precision Boost Overdrive3 for forbedret ytelse med prosessorer i AMD Ryzen 2000 X - serien. Hovedkortene i AMD 300 - serien er kompatible med 2n d Gen AMD Ryzen™ prosessorer med en enkel fastvareoppdatering(BIOS) 4. Velg 2n d Gen AMD Ryzen prosessorer og omfavn en databehandlingsopplevelse som er både mer fleksibel og kraftigere enn noe som før har vært tilgjengelig.",
+				"Produkttype": "CPU",
+				"Merke": "AMD",
+				"Tittel": "AMD Ryzen 7 2700"
+			},
+			"CPU 3": {
+				"Banner": 1,
+				"Bilde": "Intel Core i5-9600K.jpg",
+				"Pris": "3199.-",
+				"Produktbeskrivelse": "Datamaskiner med de nye 9. generasjons Intel® Core™-skrivebordsprosessorene er fullpakket med ytelse for hverdagsgamere og konkurransegamere. Med opptil 8 kjerner, 16 tråder, 5,0 GHz og 16 MB hurtigbuffer, er 9. generasjons Intel® Core™ skrivebordsprosessorer bygd for gaming. En 9. generasjons Intel® Core™-prosessor er en stor investering i skrivebordsopplevelsene dine – uansett om det er for gaming, kreativitet, underholdning eller generell databehandling – overalt dit livet bringer deg. Den nyeste generasjonen av skrivebordsprosessorer tilbyr en rekke alternativer for ditt budsjett og dine behov– fra ytelsen til den 9. generasjons Intel® Core™ i9 - 9900 K - prosessoren, som legger listen høyere, med opptil 5GHz og 16 - veis multitasking til nyttige ytelsesalternativer på inngangsnivået.",
+				"Produkttype": "CPU",
+				"Merke": "Intel",
+				"Tittel": "Intel Core i5-9600K"
+			},
+			"CPU 4": {
+				"Banner": 1,
+				"Bilde": "Intel Core i5-8400.png",
+				"Pris": "2699.-",
+				"Produktbeskrivelse": "Forbedre ytelsen på din PC med den avanserte hexa-core Intel Core i5-8400 prosessoren fra Coffee Lake-familien. Prosessoren har en turbomodus for mer krevende multitråds apper, 4K UHD videoavspilling og high-end gaming.",
+				"Produkttype": "CPU",
+				"Merke": "Intel",
+				"Tittel": "Intel Core i5-8400"
+			},
+			"CPU 5": {
+				"Banner": 1,
+				"Bilde": "Intel Core i7-8700.png",
+				"Pris": "3699.-",
+				"Produktbeskrivelse": "Utstyrt med Intel® Turbo Boost Technology 2.0, vil datamaskinen din ha kraften og responsiviteten som trengs for å få produktiviteten din til å gå i været. Opplev utrolig gamingytelse, sømløs redigering og deling av 360-video, og få gleden av fantastisk 4K Ultra HD-underholdning – alt med de lynraske dataoverføringshastighetene til Thunderbolt™ 3-teknologien. En imponerende portefølje av standard og ulåste systemer for et bredt spekter av bruksområder og ytelsesnivåer Ny systemakselerasjon når den er paret med Intel® Optane™ - minne for å levere en fantastisk systemresponsivitet Intel® Turbo Boost Technology 2.0 for å gi deg det ekstra ytelsesløftet når du trenger det. Intel® Hyper - Threadineknologi(Intel® HT - teknologi) som gjør det muligg - t for hver prosessorkjerne å arbeide på to oppgaver samtidig, noe som forbedrer multitaskingen, får fart på arbeidsflyter og utretter mer på kortere tid Støtte for DDR4 RAM - minneteknologi som gjør det mulig for systemet å ha opptil 64 GB i minne og overføringshastigheter på opptil 2666 MT / s Muligheten til å angi en overklokket frekvens for hver kjerne med ulåste prosessorer, 1 når den er paret med utvalgte brikkesett - SKU - er, for å gi deg mer kontroll og flere nivåer når du overklokker2 plattformen din ",
+				"Produkttype": "CPU",
+				"Merke": "Intel",
+				"Tittel": "Intel Core i7-8700"
+			},
+			"CPU 6": {
+				"Banner": 1,
+				"Bilde": "Intel Core i7-9700K.jpg",
+				"Pris": "4399.-",
+				"Produktbeskrivelse": "Datamaskiner med de nye 9. generasjons Intel® Core™-skrivebordsprosessorene er fullpakket med ytelse for hverdagsgamere og konkurransegamere. Med opptil 8 kjerner, 16 tråder, 5,0 GHz og 16 MB hurtigbuffer, er 9. generasjons Intel® Core™ skrivebordsprosessorer bygd for gaming. Slipp løs det kreative potensialet ditt med den kraften du trenger for å skape, redigere og dele. La kreativiteten din flyte mens den 9. generasjons Intel® Core™-prosessoren gjengir og koder i bakgrunnen, slik at du ikke går glipp av noe. Reduser ventetiden mellom inspirasjon og skaping med Intel® Optane™-minne som får fart på lastingen av de programmene du bruker mest.",
+				"Produkttype": "CPU",
+				"Merke": "Intel",
+				"Tittel": "Intel Core i7-9700K"
+			}
+		},
+		"HDDSSD": {
+			"HDDSSD 1": {
+				"Banner": 1,
+				"Bilde": "Samsung 860 EVO 2TB SSD.jpg",
+				"Pris": "1560.-",
+				"Produktbeskrivelse": "Dette er etterfølgeren til verdens mest solgte* SATA SSD-serie, Samsung 860 EVO. Denne raske og driftssikre SSD-en er beregnet spesielt for stasjonære og bærbare PC-er og er utstyrt med en ny V-NAND og en solid, algoritmebasert styreenhet. Den leveres i et bredt utvalg av kompatible formfaktorer og kapasiteter. Hastighetene er mer stabile også ved langvarig arbeidsbelastning og multitasking. Ved sekvensiell skriving har 860 EVO en ytelse på opptil 520 MB/s* med Intelligent TurboWrite-teknologi og sekvensiell lesing opptil 550 MB/s. Størrelsen på TurboWrite-bufferen* er oppgradert fra 12 GB til 78 GB for å gi raskere filoverføring.",
+				"Produkttype": "HDDSSD",
+				"Merke": "Samsung",
+				"Tittel": "Samsung 860 EVO 2TB SSD"
+			},
+			"HDDSSD 2": {
+				"Banner": 1,
+				"Bilde": "Samsung 970 EVO Plus 1TB.jpg",
+				"Pris": "2299.-",
+				"Produktbeskrivelse": "Oppgradering av den ultimate ytelsen.Den er raskere enn 970 EVO – 970 EVO Plus er drevet av den nyeste V-NAND-teknologien og optimalisert firmware. Den maksimerer potensialet fra NVMe-båndbredden som gir uslåelig databehandling. Kapasitet opptil 2 TB, med pålitelig ytelse opptil 1200 TBW. 970 EVO Plus kommer opp i sekvensielle lese- og skrivehastigheter på opptil 3500/3300 MB/s, opptil 53 % raskere enn 970 EVO. Den nyeste V-NAND – som bidrar med bedre NAND-ytelse og høyere effektivitet – sammen med optimalisert firmware, en pålitelig Phoenix-controller og Intelligent TurboWrite, øker hastigheten ytterligere.",
+				"Produkttype": "HDDSSD",
+				"Merke": "Samsung",
+				"Tittel": "Samsung 970 EVO Plus 1TB"
+			},
+			"HDDSSD 3": {
+				"Banner": 1,
+				"Bilde": "Samsung 970 EVO Plus 500GB.jpg",
+				"Pris": "1293.-",
+				"Produktbeskrivelse": "Oppgradering av den ultimate ytelsen.Den er raskere enn 970 EVO – 970 EVO Plus er drevet av den nyeste V-NAND-teknologien og optimalisert firmware. Den maksimerer potensialet fra NVMe-båndbredden som gir uslåelig databehandling. Kapasitet opptil 2 TB, med pålitelig ytelse opptil 1200 TBW. 970 EVO Plus kommer opp i sekvensielle lese- og skrivehastigheter på opptil 3500/3300 MB/s, opptil 53 % raskere enn 970 EVO. Den nyeste V-NAND – som bidrar med bedre NAND-ytelse og høyere effektivitet – sammen med optimalisert firmware, en pålitelig Phoenix-controller og Intelligent TurboWrite, øker hastigheten ytterligere.",
+				"Produkttype": "HDDSSD",
+				"Merke": "Samsung",
+				"Tittel": "Samsung 970 EVO 500GB SSD"
+			},
+			"HDDSSD 4": {
+				"Banner": 1,
+				"Bilde": "Seagate Ironwolf 4TB.jpg",
+				"Pris": "1239.-",
+				"Produktbeskrivelse": "Optimalisert for NAS med AgileArray. AgileArray AgileArray er bygget for balansering på to plan og RAID-optimalisering i miljøer med flere luker med den mest avanserte strømstyringen som er mulig. Høy ytelse betyr ingen forsinkelser eller nedetid for brukerne når trafikken er høy for NAS -.Seagate leder an i konkurransen med den høyeste ytelsen en for stasjoner i NAS - klassen. Reduksjon av roterende vibrasjon(RV).Den første i sin klasse med harddisker til å inkludere RV - sensorer for å opprettholde høy ytelse i NAS - rammer med flere harddisker. Utvalg av kapasiteter på opptil 10 TB Flere kapasitetsalternativer betyr flere valg som vil passe med budsjettet.Seagate tilbyr en skalerbar løsning for alle slags brukstilfeller for NAS. Kom deg frem med mer hurtigbuffer IronWolf tilbyr høy - hurtigbufferalternativer som lar din NAS betjene data raskere. Gjør mer med teknologi for flere brukere Gjør det mulig med en brukerarbeidsmengde med en hastighet på 180 TB / år.Flere brukere kan trygt laste opp og laste ned data til NAS - serveren, og vite at den kan håndtere arbeidsmengden, enten du er en profesjonell designer eller har en liten bedrift. Ytelse designet for alltid å være på, alltid tilgjengelig, døgnet rundt Få tilgang til dataene dine på din NAS når som helst, eksternt eller lokalt. 1 million timer MTBF, 3 års begrenset garanti utgjør en forbedret total eierkostnad(TCO) med reduserte vedlikeholdskostnader.",
+				"Produkttype": "HDDSSD",
+				"Merke": "Seagate",
+				"Tittel": "Seagate Ironwolf 4TB HDD"
+			},
+			"HDDSSD 5": {
+				"Banner": 1,
+				"Bilde": "Seagate Barracuda 4TB.png",
+				"Pris": "1035.-",
+				"Produktbeskrivelse": "BarraCuda fører an i industrien med den høyeste kapasiteten til stasjonære og bærbare datamaskiner. Med drev opptil 10 TB er BarraCudas portefølje et godt alternativ for oppgraderinger på ethvert prispunkt. Den kompromissløse BarraCuda Pro kombinerer bransjeledende lagringskapasitet med spinhastigheter på 7.200 RPM for lynrask ytelse og innlastingstider når man spiller eller utfører tunge arbeidsoppgaver. BarraCuda leveres også utstyrt med en 2 års garanti. Alle harddisker i BarraCuda-familien er utstyrt med hurtigbufringsteknologi med flere lag (MTC). MTC bringer PC-en din opp på nye ytelsesnivåer, slik at du kan laste inn programmer og filer raskere enn noensinne. Ved å bruke intelligente lag med NAND Flash, DRAM og mediebufringsteknologier, gir BarraCuda deg den bedre lese- og skriveytelsen ved å optimalisere dataflyten.",
+				"Produkttype": "HDDSSD",
+				"Merke": "Seagate",
+				"Tittel": "Seagate Barracuda 4TB HDD"
+			},
+			"HDDSSD 6": {
+				"Banner": 1,
+				"Bilde": "Western Digital Black SN750 500GB.png",
+				"Pris": "1049.-",
+				"Produktbeskrivelse": "WD BLACK™ SN750 NVMe™ SSD leverer førsteklasses ytelse til gaming- og maskinvareentusiaster som ønsker å bygge eller oppgradere PC-en sin. WD Black SN750 NVMe SSD fås i kapasiteter på opptil 2 TB og konkurrerer dermed med noen av de høyestytende diskene på markedet, for å gi gamere et konkurransefortrinn. I kjernen av WD BLACK-disken er den revolusjonerende NAND-teknologien. Ved å doble lagringstettheten i forhold til forrige generasjon, utvider vår 64-lags 3D NAND grensene for lagring og viser den utrolige utviklingen til NAND. Dette betyr utvidet kapasitet på en ensidig disk som er omtrent på størrelse med en avlang tyggis, nok til å lagre store filer og videospill.",
+				"Produkttype": "HDDSSD",
+				"Merke": "Western Digital",
+				"Tittel": "Western Digital Black SN750 500GB SSD"
+			}
+		},
+		"Kabinett": {
+			"Kabinett 1": {
+				"Banner": 1,
+				"Bilde": "Corsair Obsidian 500D RGB SE.png",
+				"Pris": "1299.-",
+				"Produktbeskrivelse": "Tre LL120 RGB-vifter skaper en symfoni av slående RGB-farger, med plass til opptil seks stykk. Den særpregede stilen til Obsidian-serien har et utvendig design med rene linjer og frontpanel i vakkert frostet, herdet glass, med strålende RGB-belysning. Topplate og dørhåndtak i solid aluminium sørger for et raffinerte utseende og preg. Inkluderer en USBÂ 3.1 Type-C-port med superrask hastighet og ekstra porter for alle moderne eksterne enheter.",
+				"Produkttype": "Kabinett",
+				"Merke": "Corsair",
+				"Tittel": "Corsair Obsidian 500D RGB SE"
+			},
+			"Kabinett 2": {
+				"Banner": 1,
+				"Bilde": "Corsair Spec Omega RGB.png",
+				"Pris": "1399.-",
+				"Produktbeskrivelse": "Asymmetrisk, vinkelformet design og en integrert RGB-lysstripe gir Spec-OMEGA RGB et tydelig, unikt og modernenbsputseende. Inkluderer Lighting Node PRO Med digital RGB-lyskontroll kan du bruke iCUE for enkelt å velge nye lysmoduser blant en rekke innebygde effekter eller lage din egen. Plass til opptil seks 120 mm vifter eller alternativt opptil en 360 mm kjøler fra Hydro Series foran, en 240 mm kjøler øverst og en 120 mm kjøler bak. Med front- og sidepaneler i herdet glass får du virkelig vist frem systemet ditt, og et medfølgende PSU-deksel skjuler kabler og gjør det enklere å holde innsiden like ren som utsiden. 30 RGB-LED-er i frontfasaden og to medfølgende CORSAIR HD120 RGB-vifter gir en fullstendig RGB-brukertilpasning.",
+				"Produkttype": "Kabinett",
+				"Merke": "Corsair",
+				"Tittel": "Corsair Spec Omega RGB"
+			},
+			"Kabinett 3": {
+				"Banner": 1,
+				"Bilde": "Lian Li PC-011.jpg",
+				"Pris": "1499.-",
+				"Produktbeskrivelse": "The O11 DYNAMIC is the combination of modern design and art. Through years of researching, collecting feedback and redesigning; We have successfully crafted the best edition of the dual chamber chassis. Extremely compact considering its compatibility with liquid cooling and GPUs May hold three 360 mm radiators Can be used with a dual - PSU setup No restriction in GPUs even when filled with radiators Can hold up to six storage drives USB 3.1 Type C connector part of I / O Dust filters on all air vents— two on the side, one on top, and one on the floor of the chassis Two well - designed glass panels Excellent access as glass and side panels are easily removable.",
+				"Produkttype": "Kabinett",
+				"Merke": "Lian Li",
+				"Tittel": "Lian Li PC-011"
+			},
+			"Kabinett 4": {
+				"Banner": 1,
+				"Bilde": "Thermaltake Core P3.jpg",
+				"Pris": "1599.-",
+				"Produktbeskrivelse": "Thermaltake has kicked open-frame chassis up to a notch and presented the Core P3 Tempered Glass Curved Edition ATX Open Frame Chassis. Open framed PC cases are all about style, about showing off your hardware and taking pride in your system. The Core P3 Curved chassis is the next step in open frame tempered glass case design, with a 90° curved panel; giving you awesome views of your hardware and more options to make your custom system a reality. The chassis is designed with dual GPU and PSU layout options and 3-way stand placements (wall mount, horizontal, and vertical placements), plenty of liquid cooling options and near unlimited flexibility when it comes to building the most advanced customized PC.",
+				"Produkttype": "Kabinett",
+				"Merke": "Thermaltake",
+				"Tittel": "Thermaltake Core P3"
+			},
+			"Kabinett 5": {
+				"Banner": 1,
+				"Bilde": "NZXT H500.png",
+				"Pris": "1699.-",
+				"Produktbeskrivelse": "H500 viser frem signaturdesignen til kabinettene i NZXT H-serien. Den elegante konstruksjonen er fullstendig i stål og inkluderer det ikoniske kabelhåndteringssystemet for å strømlinjeforme byggingen og oppgraderingen av anlegget ditt. Du kan enkelt bygge et kraftig anlegg med mange alternativer for lagring og kjøling. H500 omfatter to Aer F*-vifter og et sømløst sidepanel i herdet glass. Førsteklasses konstruksjon fullstendig i stål med den slanke designen til H - serien;tilgjengelig i fire fargekombinasjoner Panel i herdet glass viser frem bygget ditt klart og tydelig Enkel installasjon og utvidelse av systemet med et helt nytt kabelhåndteringssystem Enklere installasjon av vannkjøling for både AIO og tilpasset sløyfe.",
+				"Produkttype": "Kabinett",
+				"Merke": "NZXT",
+				"Tittel": "NZXT H500"
+			}
+		},
+		"RAM": {
+			"RAM 1": {
+				"Banner": 1,
+				"Bilde": "Corsair Vengeance LPX 16gb 3000MHz.jpg",
+				"Frekvens": "3000MHz",
+				"Lagringsplass": "16gb",
+				"Merke": "Corsair",
+				"Pris": "1499.-",
+				"Produktbeskrivelse": "Vengeance LPX minne er designet for overklokking på høy ytelse. Varmesprederen er laget av rent aluminium for raskere varmeutstråling, og åtte lag med PCB hjelper til med å håndtere varmen og sørger for en overlegen overklokking. Hver integrerte krets er undersøkt for ytelsespotensial.  DDR4-formfaktoren er optimalisert for de nyeste hovedkortene i Intel X99- og X100-seriene og tilbyr høyere frekvenser, større båndbredde og lavere energiforbruk enn DD3-moduler. Vengeance LPX DD4-modulene er kompatibilitetstestet på hovedkortene i X99- og X100-seriene for pålitelig og rask ytelse. Den har XMP 2.0-støtte for problemfri automatisk overklokking. Dessuten er de tilgjengelig i flere farger for å matche hovedkortet ditt, komponentene dine, eller ganske enkelt stilen din.",
+				"Produkttype": "RAM",
+				"Tittel": "Corsair Vengeance LPX 16gb 3000MHz"
+			},
+			"RAM 2": {
+				"Banner": "1",
+				"Bilde": "Corsair Vengeance RGB Pro 16gb 2666MHz.jpg",
+				"Ferdig": 1,
+				"Frekvens": "2666MHz",
+				"Lagringsplass": "16gb",
+				"Merke": "Corsair",
+				"Pris": "1498.-",
+				"Produktbeskrivelse": "Vengeance RGB PRO Series overklokket DDR4-minne lyser opp PC-en din med hypnotiserende, dynamisk RGB-belysning i flere soner, samtidig som den leverer det beste innen DDR4-ytelse. Kretskort med tilpasset ytelse gir deg den høyeste signalkvaliteten for det høyeste nivået av ytelse og stabilitet. Neste generasjons programvare: Kraftig CORSAIR iCUE-programvare får liv i anlegget ditt med dynamisk RGB-lysstyring, synkronisert på tvers av alle dine iCUE-kompatible produkter, inkludert minne, vifter, RGB LED-lyslister, tastatur, mus og mer.  Tilpass dusinvis av forhåndsinnstilte belysningsprofiler, eksperimenter med et stort utvalg av brukerjusterbare farger og juster LED-lysstyrken slik at den passer perfekt til anlegget ditt.",
+				"Produkttype": "RAM",
+				"Tittel": "Corsair Vengeance RGB Pro 16gb 2666MHz"
+			},
+			"RAM 3": {
+				"Banner": 1,
+				"Bilde": "G skill trident Z 16gb 3200MHz RGB.jpg",
+				"Frekvens": "3200MHz",
+				"Lagringsplass": "16gb",
+				"Merke": "G skill",
+				"Pris": "3299.-",
+				"Produktbeskrivelse": "Limited Lifetime Warranty: All G.SKILL memory products come with a limited lifetime warranty and the G.SKILL technical team is always ready to provide consumers with complete technical support via online forum, telephone, and email.   Asus Aura Ready: Want to sync up your system lighting? Just use Asus Aura software to personalize the colors and effects of your Trident Z RGB memory and Asus Aura-ready motherboard!  XMP 2.0 Support: Just set and go. Programmed with the latest Intel XMP 2.0 profiles, the only thing between you and extreme performance is a simple setting.  Each memory kit contains specially screened ICs through G.SKILL’s unparalleled selection process and a custom engineered ten-layer PCB offering maximum signal stability; and every single kit is rigorously tested for reliability, compatibility, and performance across a wide range of motherboards.  Trident Z RGB retains the iconic design element of the traditional Trident Z lineup – featuring luxurious hair-line finished aluminum heatspreaders and an aggressive fin design for highly efficient heat dissipation. The top of the heatsink has been exclusively engineered to mount a wider light diffuser for more extravagant lighting effects. Look no further for a memory that combines performance and beauty for building a stylish, modern PC!  The uncovered light bar is designed for visual gratification in full RGB. The default lighting sports a fluid full spectrum rainbow wave. Downloadable software allows expanded effect and color customizations to the memory modules. Color match your build and rethink the possibilities with RGB.  Featuring a completely exposed light bar with vibrant RGB LEDs, merged with the award-winning Trident Z heatspreader designed, and constructed with the highest quality components, the Trident Z RGB DDR4 memory kit combines the most vivid RGB lighting with uncompromised performance.",
+				"Produkttype": "RAM",
+				"Tittel": "G skill trident Z 16gb 3200MHz"
+			},
+			"RAM 4": {
+				"Banner": 1,
+				"Bilde": "G skill trident Z 4266MHz 32gb RGB.jpg",
+				"Frekvens": "4266MHz",
+				"Lagringsplass": "32gb",
+				"Merke": "G skill",
+				"Pris": "2599.-",
+				"Produktbeskrivelse": "Featuring a completely exposed light bar with vibrant RGB LEDs, merged with the award-winning Trident Z heatspreader design, and constructed with the highest quality components, the Trident Z RGB DDR4 memory kit combines the most vivid RGB lighting with uncompromised performance. Each memory kit contains specially screened ICs through G.SKILL’s unparalleled selection process and a custom engineered ten-layer PCB offering maximum signal stability; and every single kit is rigorously tested for reliability, compatibility, and performance across a wide range of motherboards.",
+				"Produkttype": "RAM",
+				"Tittel": "G skill trident Z 4266MHz 32gb RGB"
+			},
+			"RAM 5": {
+				"Banner": 1,
+				"Bilde": "G skill Value 32gb 2400MHz.jpg",
+				"Frekvens": "2400MHz",
+				"Lagringsplass": "32gb",
+				"Merke": "G skill",
+				"Pris": "1399.-",
+				"Produktbeskrivelse": "G.SKILL DDR4 memory is designed for the ultimate experience on the latest DDR4 platform! Whether you are processing large amounts of data or intense gaming, experience smooth system performance with the newest next-generation PC memory technology! All G.SKILL DDR4 memory kits are tested with extensive suite of testing software to ensure maximum performance and stability.  Ultra Compatibility with the latest DDR4 Systems!  G.SKILL DDR4 memory  kits are validated for compatibility with most DDR4 platforms under a series of rigorous tests in quad channel memory operations. It’s guaranteed to provide the best-in-class performance, compatibility, and stability with the widest range of motherboards.  Faster Transfer Speed: Starting from 2133MHz as standard frequency, DDR4 memory delivers much higher bandwidth than previous DDR memory. You can enjoy a faster computing experience for gaming, video & image editing, rendering, and other professional applications.  More Power Efficient: Designed with a low voltage of 1.2V at DDR4 standard, this lowers the memory voltage requirement by 20% from DDR3 memory kits! Now your system can perform even faster without becoming an expensive appliance heater.",
+				"Produkttype": "RAM",
+				"Tittel": "G skill Value 32gb 2400MHz"
+			},
+			"RAM 6": {
+				"Banner": 1,
+				"Bilde": "HyperX Fury 16gb 3200MHz.jpg",
+				"Frekvens": "3200MHz",
+				"Lagringsplass": "16gb",
+				"Merke": "HyperX",
+				"Pris": "2199.-",
+				"Produktbeskrivelse": "HyperX® FURY DDR4 oppdager systemets komponenter og overklokker automatisk seg selv til høyeste publiserte frekvens, opptil 3466MHz1, for et Plugg og spill av-ytelsesboost. Denne kostnadseffektive oppgraderingen lar deg sette fart på innstillingene i dine favoritt FPS-, MMO- og MOBA-spill og gir bedre videoredigerings- og gjengivelsesytelse. Den er tilgjengelig i hastigheter fra 2400MHz–3466MHz, CL15–19 latenser, og enkeltmodulkapasiteter på 4GB–16GB og settkapasiteter på 16GB–64GB. HyperX FURY DDR4 ser og holder kald, takket være en stilig lavprofil varmespreder og DDR4s lave 1,2V strømforbruk. HyperX FURY DDR4 er din bekymringsfrie oppgradering, og er 100% testet i hastighet og støttes av en livstidsgaranti.",
+				"Produkttype": "RAM",
+				"Tittel": "HyperX Fury 16gb 3200MHz"
+			}
+		},
+		"Skjermkort": {
+			"Skjermkort 1": {
+				"Banner": 1,
+				"Bilde": "Nvidia GeForce GTX 1080 Ti.jpg",
+				"Pris": "5299.-",
+				"Produktbeskrivelse": "Med MSI GeForce GTX 1080 Ti Armor OC-grafikkort kan du øke gamingytelsen til din stasjonære gaming-PC og gjøre den i stand til å takle selv AAA-spill med fullt detaljnivå og 4 K-oppløsning. Grafikkortet bruker et meget bredt 352-bit grensesnitt og 11 GB rask GDDR5X RAM for å takle de mest krevende spillene. Med GPU boost kan kjernefrekvensen økes ved behov for grafikkrevende applikasjoner og program. Nvidia VR Ready-sertifisering gjør grafikkortet ideelt for VR-spill og apper. Doble HDMI-utganger gjør at du slipper å koble fra skjermen din når du vil koble til VR-headsett. Nvidia G - Sync: Denne teknologien synkroniserer oppdateringsfrekvensen til G - Sync - kompatible skjermer med grafikkortet for å minimere hakking og forsinkelse. Kjøling: MSI Armor 2 X kjølesystem bruker 2 Torx - vifter.Den ene sørger for jevn luftstrøm til den massive kjøleplaten, og den andre sørger for at varmluften forsvinner raskest mulig.Zero Frozr - teknologi stanser viftene når kortet er under lav belastning og sørger for stillegående bruk. MSI - app: Med den intuitive MSI - appen til PC eller mobil enhet kan du med et tastetrykk stille inn kortet for å yte maksimalt eller slå av kjølingen ved lav belastning. Egenskaper: -PCI Express x16 3.0 bus - 11 GB GDDR5X minne - 11016 MHz memory clock - frekvens - 1531 / 1645 MHz GPU core clock frekvens(GPU Boost off / on) - 2 x HDMI og 2 x DisplayPort - tilkoblinger og 1 DVI - D – Støtte for 8 K - skjermer(7680 x 4320) – Støtte for opptil 4 skjermer samtidig - DirectX 12 - støtte - Kombustor, innebygd DirectX 12 benchmark - Nvidia SLI - støtte - Nvidia VR Ready.",
+				"Produkttype": "Skjermkort",
+				"Merke": "Nvidia",
+				"Tittel": "Nvidia GTX 1080 Ti"
+			},
+			"Skjermkort 2": {
+				"Banner": 1,
+				"Bilde": "Nvidia GeForce GTX 1080.jpg",
+				"Pris": "4399.-",
+				"Produktbeskrivelse": "Upgrade your gaming desktop to handle even extremely demanding triple-A 3D games and VR environments with Gigabyte GeForce GTX 1080 G1 Gaming graphic card. The card uses wide 256-bit interface and 8 GB fast GDDR5X RAM for smooth performance in 1440p or 4K 2160p gaming on high or ultra details. With GPU core overclocking, the core frequency can be increased higher for power-hungry graphic applications and programs. And Nvidia VR Ready certification makes the card ideal for immersive virtual reality games and apps. Nvidia G - Sync: This technology synchronizes the refresh rate of G - Sync compatible monitors with the graphics to minimize screen tearing and lag. RGB lighting: Customize the card looks and complement your PC case with adjustable color LED lighting and various light effects using the Xtreme Engine app. Cooling: Triple WindForce 3 X fans with ridged blades ensure consistent airflow over the radiator.Two copper composite heatpipes with direct contact on the core provides optimum cooling even under heavy load.With semi - passive design, the fans turn off when the card is under low load to operate in silent mode.LED indicators on top of the card show you the current status for each fan. Features: -PCI Express x16 3.0 bus - 8 GB GDDR5X memory - 10010 MHz memory clock frequency - 1721 / 1860 MHz GPU core clock frequency in OC Mode(GPU Boost off / on) - 1695 / 1835 MHz GPU core clock frequency in Gaming Mode(GPU Boost off / on) - 1 x HDMI v2 .0 b, 1 x DVI - D and 3 x DisplayPort v1 .4 connectors – Support for 8 K displays(7680 x 4320) at 60 Hz - requires two DisplayPort connections Supports up to 4 simultaneous screen connections - DirectX 12 support - Nvidia SLI support - Nvidia VR Ready - Rigid backplate improves card stability and prevents the circuit board from bending.",
+				"Produkttype": "Skjermkort",
+				"Merke": "Nvidia",
+				"Tittel": "Nvidia GeForce GTX 1080"
+			},
+			"Skjermkort 3": {
+				"Banner": 1,
+				"Bilde": "Asus GeForce GTX 1080 Ti ROG Strix OC.jpg",
+				"Pris": "5199.-",
+				"Produktbeskrivelse": "Med Asus ROG Strix GeForce GTX 1080 Ti OC-grafikkort kan du øke gamingytelsen til din stasjonære gaming-PC og gjøre den i stand til å takle selv AAA-spill med fullt detaljnivå og 4 K-oppløsning. Grafikkortet bruker et meget bredt 352-bit grensesnitt og 11 GB rask GDDR5X RAM for å takle de mest krevende spillene. Med OC Mode kan du øke både klokke- og kjernefrekvensen når du trenger mer kraft til krevende applikasjoner og program. Kjøling: Med triple Wing Blade - vifter og MaxContact - radiator med varmerør har direktekontakt med CPU - en, slik at varmen fjernes raskere og ytelsen holdes stabil selv ved krevende gaming.Samtidig gjør vingeformene på viftene at lydnivået holdes lavt.Med Asus FanConnect kan du også koble to GPU - styrte viftetilkoblinger til hovedkortet og gi hele PC - en optimal kjøling. Nvidia G - Sync: Denne teknologien synkroniserer oppdateringsfrekvensen til G - Sync - kompatible skjermer med grafikkortet for å minimere hakking og forsinkelse. VR Ready: Nvidia VR Ready - sertifisering gjør kortet ideelt for VR - spill og apper.Med HDMI - utgang kan du koble til ditt VR - headset uten å koble fra skjermen. AuraSync RGB - belysning: Velg blant over 16, 7 millioner farger og seks ulike effekter for LED - belysninger på bakplaten og på frontkjøleren. Egenskaper: -PCI Express x16 3.0 bus - 11 GB GDDR5X minne - 3584 CUDA cores - 11010 / 11100 MHz memory clock frekvens(OC - modus / Gaming - modus) - 1594 / 1708 MHz GPU core clock frekvens i OC - modus(GPU Boost off / on) - 1569 / 1683 MHz GPU core clock frekvens i Gaming - modus(GPU Boost off / on) - 2 x HDMI, 1 x DVI - I og 2 x DisplayPort - tilkoblinger – Støtte for 8 K - skjermer(7680 x 4320) – Støtte for opptil 4 skjermer samtidig - DirectX 12 - støtte - Asus GPU Tweak 2 - app - Nvidia SLI - støtte - Nvidia VR Ready - Robust bakplate som hindrer at kortet bøyes. ",
+				"Produkttype": "Skjermkort",
+				"Merke": "Asus",
+				"Tittel": "ASUS GeForce GTX 1080 Ti ROG STRIX OC"
+			}
+		}
+	}
+}

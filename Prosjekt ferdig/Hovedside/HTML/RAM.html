@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../CSS/hovedside.css">
+    <meta charset="utf-8">
+    <title>Nettbutikk</title>
+  </head>
+  <body>
+    <header>
+      <div class="Logo">
+        <a href="hoved.html">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="1182 572 414 126"><g data-item-type="text" data-item="Business" id="logo__item--business" class="logo__item">
+                <g class="logo__item__inner" transform="translate(1324.7578125 642.5900466779111) scale(1 1) rotate(0 0 0)">
+                    <text data-part-id="logo__item--business" dy="0" dominant-baseline="auto" alignment-baseline="auto" font-family="Montserrat" font-size="32px" fill="#92C177" letter-spacing="0" font-weight="bold" font-style="normal" data-font-family="Montserrat" data-font-weight="bold" data-font-style="normal" data-ttf-url="/builder_assets/fontsttf/font-montserrat-bold-normal.ttf">Hardwaresjappa</text>
+                </g>
+            </g><g data-item-type="image" data-item="Image" data-logo-item="" id="logo__item--logo_0" class="logo__item">
+    <g class="logo__item__inner" transform="translate(1172.9620860692085 564.5) scale(0.9478672528805483 0.9478672528805483) rotate(0 0 0)">
+
+<g>
+  <path fill="#92C177" d="M12.7,23.9v18.2c0.4-0.5,0.9-1.1,1.3-1.6l18.1-20.1c3.4-3.8,7.5-6.7,12-8.7H24.9   C18.1,11.7,12.7,17.1,12.7,23.9z" data-part-id="logo__item--logo_0__0"></path>
+  <path fill="#4681CF" d="M12.7,85.7v40.4c0,6.7,5.4,12.2,12.2,12.2h45.6L16.7,89.9C15.2,88.6,13.9,87.2,12.7,85.7z" data-part-id="logo__item--logo_0__1"></path>
+  <path fill="#4681CF" d="M136.2,66.8c1.1,1,2.2,2.1,3.1,3.2V23.9c0-6.7-5.4-12.2-12.2-12.2H72.2c3.4,1.5,6.5,3.5,9.4,6L136.2,66.8z" data-part-id="logo__item--logo_0__2"></path>
+  <path fill="#92C177" d="M120.7,136.4c-0.6,0.7-1.2,1.3-1.9,1.9h8.3c6.7,0,12.2-5.4,12.2-12.2v-10.4c-0.2,0.2-0.3,0.4-0.5,0.6   L120.7,136.4z" data-part-id="logo__item--logo_0__3"></path>
+  <path fill="#92C177" d="M77.5,132.1c3.6,3.2,8,5.4,12.6,6.2h9.1c5.6-1,10.7-3.8,14.6-8.1l18.1-20.1c9.5-10.6,8.6-26.9-1.9-36.3   l-22.6-20.3l-51.2,59.5L77.5,132.1z" data-part-id="logo__item--logo_0__4"></path>
+  <path fill="#4681CF" d="M25.9,41.1l-5,5.5c-9.5,10.6-8.6,26.9,1.9,36.3l26.2,23.6L70.3,82L25.9,41.1z" data-part-id="logo__item--logo_0__5"></path>
+  <path fill="#FFAF3A" d="M56.8,18.1c-6.9,0.4-13.2,3.4-17.8,8.5l-6.7,7.5l44.2,40.7l23.9-27.7l-25-22.4   C70.2,20.1,63.6,17.7,56.8,18.1z" data-part-id="logo__item--logo_0__6"></path>
+</g>
+
+    </g>
+</g></svg></a>
+
+      </div>
+      <ul>
+        <h1> <li> <a href="hoved.html">Hjemmeside</a></li>
+        <li> <a href="RAM.html"><u>RAM</a></u></li>
+        <li> <a href="Skjermkort.html">Skjermkort</a></li>
+        <li> <a href="CPU.html">CPU</a></li>
+        <li> <a href="Kabinetter.html">Kabinetter</a></li>
+        <li> <a href="HDDSSD.html">HDD/SSD</a></li></h1>
+      </ul>
+      <div class="buttonwrap">
+           <button onclick="visAlfabetisk()">Alfabetisk</a>
+          <button onclick="visBillig()">Billig-Dyrest</button>
+          <button onclick="visMerke()">Merke</button>
+        </div>
+      <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyAG_s4t921e7kJBUZIIjle1exMCq13Dts8",
+          authDomain: "uke-7-83f94.firebaseapp.com",
+          databaseURL: "https://uke-7-83f94.firebaseio.com",
+          projectId: "uke-7-83f94",
+          storageBucket: "uke-7-83f94.appspot.com",
+          messagingSenderId: "410512967757"
+        };
+        firebase.initializeApp(config);
+      </script>
+    </header>
+    <main>
+      <script>
+          const main = document.querySelector("main");
+          const db = firebase.database();
+          const Produkter = db.ref("Produkter/RAM");
+          const RAM = db.ref("Produkter/RAM")
+          const Billig = db.ref("Produkter/RAM")
+          const Alfabetisk = db.ref("Produkter/RAM")
+          const Merke = db.ref("Produkter/RAM")
+
+          function visProdukter(snapshot){
+              let produktSnap = snapshot.val();
+              let key = snapshot.key;
+
+              main.innerHTML +=`
+                  <article class="alle">
+                    <a href="Produktside.html?id=${key}" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 80%;"><h1>${produktSnap.Tittel}</h1>
+                    <img src="${"../Bilder/" + (produktSnap.Bilde)}" alt=""></a>
+                    <p>${produktSnap.Pris}</p>
+                  </article>
+              `
+          }
+          function visRAM(){
+            main.innerHTML = ``
+            RAM.on("child_added",visProdukter);
+            }
+        visRAM();
+
+        function visBillig(){
+          main.innerHTML = ``
+          Billig
+          .orderByChild("Pris")
+          .on("child_added",visProdukter);
+        }
+
+        function visAlfabetisk(){
+          main.innerHTML = ``
+          Alfabetisk
+          .orderByChild("Tittel")
+          .on("child_added",visProdukter);
+        }
+
+        function visMerke(){
+          main.innerHTML = ``
+          Merke
+          .orderByChild("Merke")
+          .on("child_added",visProdukter);
+        }
+
+      </script>
+    </main>
+    <footer>
+      <div class="footerwrapper">
+          <div>Kontakt oss:</div>
+          <div>butikk123@mail.com</div>
+          <div>Tlf: 12345678</div>
+          <div><a href="Omoss.html">Om oss</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
