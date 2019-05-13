@@ -33,10 +33,10 @@
       <ul>
         <h1> <li> <a href="hoved.html">Hjemmeside</a></li>
         <li> <a href="RAM.html">RAM</a></li>
-        <li> <a href="Skjermkort.html"><u>Skjermkort</u></a></li>
+        <li> <a href="Skjermkort.html">Skjermkort</a></li>
         <li> <a href="CPU.html">CPU</a></li>
         <li> <a href="Kabinetter.html">Kabinetter</a></li>
-        <li> <a href="HDDSSD.html">HDD/SSD</a></li></h1>
+        <li> <a href="HDDSSD.html"><u>HDD/SSD</u></a></li></h1>
       </ul>
       <div class="buttonwrap">
            <button onclick="visAlfabetisk()">Alfabetisk</a>
@@ -61,10 +61,10 @@
       <script>
           const main = document.querySelector("main");
           const db = firebase.database();
-          const Skjermkort = db.ref("Produkter/Skjermkort")
-          const Billig = db.ref("Produkter/Skjermkort")
-          const Alfabetisk = db.ref("Produkter/Skjermkort")
-          const Merke = db.ref("Produkter/Skjermkort")
+          const HDDSSD = db.ref("Produkter/HDDSSD")
+          const Billig = db.ref("Produkter/HDDSSD")
+          const Alfabetisk = db.ref("Produkter/HDDSSD")
+          const Merke = db.ref("Produkter/HDDSSD")
 
           function visProdukter(snapshot){
               let produktSnap = snapshot.val();
@@ -78,11 +78,11 @@
                   </article>
               `
           }
-          function visSkjermkort(){
+          function visHDDSSD(){
             main.innerHTML = ``
-            Skjermkort.on("child_added",visProdukter);
+            HDDSSD.on("child_added",visProdukter);
             }
-        visSkjermkort();
+        visHDDSSD();
 
         function visBillig(){
           main.innerHTML = ``

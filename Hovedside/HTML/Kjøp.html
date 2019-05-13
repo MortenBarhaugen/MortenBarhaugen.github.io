@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="../CSS/hovedside.css">
+    <link rel="stylesheet" href="../CSS/Produktside.css">
     <meta charset="utf-8">
     <title>Nettbutikk</title>
   </head>
@@ -31,18 +31,14 @@
 
       </div>
       <ul>
-        <h1> <li> <a href="hoved.html">Hjemmeside</a></li>
+        <h1><li> <a href="hoved.html">Hjemmeside</a></li>
         <li> <a href="RAM.html">RAM</a></li>
-        <li> <a href="Skjermkort.html"><u>Skjermkort</u></a></li>
+        <li> <a href="Skjermkort.html">Skjermkort</a></li>
         <li> <a href="CPU.html">CPU</a></li>
         <li> <a href="Kabinetter.html">Kabinetter</a></li>
         <li> <a href="HDDSSD.html">HDD/SSD</a></li></h1>
       </ul>
-      <div class="buttonwrap">
-           <button onclick="visAlfabetisk()">Alfabetisk</a>
-          <button onclick="visBillig()">Billig-Dyrest</button>
-          <button onclick="visMerke()">Merke</button>
-        </div>
+
       <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
       <script>
         // Initialize Firebase
@@ -58,54 +54,55 @@
       </script>
     </header>
     <main>
-      <script>
-          const main = document.querySelector("main");
-          const db = firebase.database();
-          const Skjermkort = db.ref("Produkter/Skjermkort")
-          const Billig = db.ref("Produkter/Skjermkort")
-          const Alfabetisk = db.ref("Produkter/Skjermkort")
-          const Merke = db.ref("Produkter/Skjermkort")
+    <script>
+      const main = document.querySelector("main");
+      var url_string = window.location.href
+      var url = new URL(url_string);
+      var id = url.searchParams.get("id");
 
-          function visProdukter(snapshot){
-              let produktSnap = snapshot.val();
-              let key = snapshot.key;
+      let db = firebase.database();
+      let RAM = db.ref("Produkter/RAM/" + id)
+      let Skjermkort = db.ref("Produkter/Skjermkort/" + id)
+      let CPU = db.ref("Produkter/CPU/" + id)
+      let Kabinetter = db.ref("Produkter/Kabinett/" + id)
+      let HDDSSD = db.ref("Produkter/HDDSSD/" + id)
 
-              main.innerHTML +=`
-                  <article class="alle">
-                    <a href="Produktside.html?id=${key}" style="text-decoration: none; color: black; font-family: sans-serif; font-size: 80%;"><h1>${produktSnap.Tittel}</h1>
-                    <img src="${"../Bilder/" + (produktSnap.Bilde)}" alt=""></a>
-                    <p>${produktSnap.Pris}</p>
-                  </article>
-              `
-          }
-          function visSkjermkort(){
-            main.innerHTML = ``
-            Skjermkort.on("child_added",visProdukter);
-            }
-        visSkjermkort();
 
-        function visBillig(){
-          main.innerHTML = ``
-          Billig
-          .orderByChild("Pris")
-          .on("child_added",visProdukter);
-        }
+      function visProdukt(snapshot){
+          console.log(snapshot.val());
+          let produktSnap = snapshot.val();
+          let key = snapshot.key;
 
-        function visAlfabetisk(){
-          main.innerHTML = ``
-          Alfabetisk
-          .orderByChild("Tittel")
-          .on("child_added",visProdukter);
-        }
-
-        function visMerke(){
-          main.innerHTML = ``
-          Merke
-          .orderByChild("Merke")
-          .on("child_added",visProdukter);
-        }
-
-      </script>
+          main.innerHTML +=`
+                <div class="Kjøp">
+                <h1>Takk for ditt kjøp!</h1>
+                  <p>Produkt: ${produktSnap.Tittel}</p>
+                  <p>Total pris:${produktSnap.Pris}</p>
+                  <p>Gjennomsnittlig leveringstid for dette produktet er 2-4 arbeidsdager.<br>Hvis du har problemer med mottakelse av varen, eller har andre spørsmål kan du lese mer om hvordan du kan kontakte oss <a href="Omoss.html"> her.</a></p>
+                  <p><b>Vi håper du er fornøyd med varen!</b></p>
+                </div>
+              </article>
+              <div class="Bildekjøp">
+                <img src="${"../Bilder/" + (produktSnap.Bilde)}" alt="">
+              </div>
+          `
+      }
+      if (id.charAt(0) === "R"){
+      RAM.on("value",visProdukt);
+    }
+      if (id.charAt(0) === "S"){
+      Skjermkort.on("value",visProdukt);
+    }
+      if (id.charAt(0) === "C"){
+      CPU.on("value",visProdukt);
+    }
+      if (id.charAt(0) === "K"){
+      Kabinetter.on("value",visProdukt);
+    }
+      else if (id.charAt(0) === "H") {
+        HDDSSD.on("value",visProdukt)
+      }
+    </script>
     </main>
     <footer>
       <div class="footerwrapper">
@@ -115,5 +112,6 @@
           <div><a href="Omoss.html">Om oss</a></div>
       </div>
     </footer>
+
   </body>
 </html>

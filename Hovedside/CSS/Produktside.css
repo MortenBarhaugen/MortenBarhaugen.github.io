@@ -2,10 +2,9 @@ ul {
   list-style-type: none;
   color: black;
   margin: 0;
-  padding: 0.05%;
+  padding: 0;
   overflow: hidden;
   background-color: lightgrey;
-
 }
 header {
   position: sticky;
@@ -18,14 +17,19 @@ li>a {
   text-decoration: none;
   color: black;
   background-color: darkgray;
-  font-size: 120%;
+  font-size: 60%;
   font-family: sans-serif;
   width: 16.66667%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  text-align: center;
+  line-height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 225px) {
   li>a {
     width: 100%;
     position: fixed;
@@ -33,7 +37,7 @@ li>a {
 }
 body {
   margin: 0;
-  background-color: lightgrey;
+  background-image: url("https://live.staticflickr.com/2886/9254480289_d78cfd47d9_b.jpg");
 }
 li>a:hover {
   background-color: grey;
@@ -42,17 +46,78 @@ main {
   margin-left: 10%;
   margin-right: 10%;
   background-color: white;
-  height: 100%;
-  margin-top: 0%;
+  height: auto;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   padding-left: 2%;
   padding-top: 2%;
 }
-.alle:hover{
-  border: grey solid 2px;
-  padding-right: 0px;
-  margin-right: 1px;
-  padding-left: 5px;
-  margin-bottom: 100px;
+.Bilde{
+  display: inline-block;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin-top: 10%;
+}
+.Pris{
+  display: inline-block;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding-top: 10%;
+  padding-left: 270px;
+  padding-bottom: 20px;
+}
+.Tittel{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.Produktbeskrivelse{
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.Kjøp{
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding-bottom: 10px;
+}
+.Logo{
+  width: 20%;
+  height: 20%;
+  padding-left: 40%;
+  padding-right: 60%;
+  background-color: white;
+}
+.alle{
+  margin: 20px;
+}
+h1{
+  margin-top: 0%;
+  font-size: 2vw;
+}
+.footerwrapper {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 20px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+@media (max-width: 1500px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 1200px) {
+  main {
+    grid-template-columns: 1fr;
 }
