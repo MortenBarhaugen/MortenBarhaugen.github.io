@@ -1,0 +1,30 @@
+html, body { height: 100%; width: 100%; padding: 0; margin: 0; }
+div {display: flex; width: 49.8%; height: 49.8%; float: left; margin: 1px; margin-top: 0; margin-right: 0; align-items: center;
+justify-content: center; word-break: normal;}
+#div1 { background: white;}
+#div2 { background: white;}
+#div3 { background: white;}
+#div4 { background: white;}
+#div1:hover {
+  background-color: lightgrey;
+}
+#div2:hover {
+  background-color: lightgrey;
+}
+#div3:hover {
+  background-color: lightgrey;
+}
+#div4:hover {
+  background-color: lightgrey;
+}
+p{
+  font-family: Courier;
+  font-size: 4vw;
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: black;
+}
